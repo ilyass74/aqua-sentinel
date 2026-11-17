@@ -4,10 +4,10 @@ AQUA Sentinel est un prototype de supervision et de detection de fuites sur un r
 
 ## Demarrer sous Windows
 
-Depuis la racine du depot, avec Python 3.12 et PowerShell :
+Depuis la racine du depot, avec Python 3.13 et PowerShell :
 
 ```powershell
-py -3.12 -m venv .venv
+py -3.13 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements_api_v3.txt
 .\.venv\Scripts\python.exe aqua_api_v3.py verifier
 .\.venv\Scripts\python.exe aqua_api_v3.py servir --ouvrir
