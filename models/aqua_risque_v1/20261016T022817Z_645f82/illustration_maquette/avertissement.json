@@ -1,0 +1,9 @@
+{
+  "origine": "simulation_actifs",
+  "inventaire_reel_disponible": false,
+  "seules_dimensions_conduites_reprises_maquette": true,
+  "raccords_hypothetiques_aux_noeuds": true,
+  "probabilite_reelle_estimee": false,
+  "quota": "2 actifs sur 9 proposes par arrondi de 20 %, quel que soit leur niveau absolu",
+  "explications": "contributions additives positives du modele, pas causes de casse demontrees"
+}

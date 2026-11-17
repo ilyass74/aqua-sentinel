@@ -1,0 +1,2 @@
+# Reutilise les dependances deja installees ; nouveaux modules en stdlib.
+-r requirements_api_v2.txt

@@ -1,0 +1,9 @@
+scenario_id,debut_fuite_s,fin_fuite_s,detectee,delai_s,detectee_en_5min
+S05cf799c133d,52620,62760,True,600.0,False
+S18eacdc3cac5,43560,52620,False,,False
+S616b16e2b06d,37620,49800,False,,False
+Sa3a55a771f06,63720,69300,True,240.0,True
+Sb58c4f852b6a,26640,32160,True,240.0,True
+Sb61b90eb833c,47280,53940,False,,False
+Sbf7430d3a4db,50400,59880,False,,False
+Sc10e3e98a78b,34800,39960,True,240.0,True

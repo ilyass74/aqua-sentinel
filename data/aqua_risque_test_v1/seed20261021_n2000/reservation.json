@@ -1,0 +1,66 @@
+{
+  "identite": {
+    "sha256_code": "5e43f7aa46f18835be1e8be80e0b071b0b5479edf348647096c660a429a5eb20",
+    "protocole": {
+      "version": 1,
+      "origine": "simulation_actifs",
+      "horizon_jours": 30,
+      "quota_inspection": 0.2,
+      "graine_train_validation": 20261020,
+      "graine_test_final": 20261021,
+      "cohortes": {
+        "train": [
+          6000,
+          "2023-10-01",
+          1
+        ],
+        "validation": [
+          2000,
+          "2024-10-01",
+          2
+        ],
+        "test": [
+          2000,
+          "2025-10-01",
+          3
+        ],
+        "demo": [
+          9,
+          "2026-10-16",
+          4
+        ]
+      },
+      "variables_numeriques": [
+        "age_ans",
+        "longueur_m",
+        "diametre_mm",
+        "reparations_passees",
+        "etat_inspection",
+        "jours_depuis_inspection",
+        "pression_moyenne_30j_m",
+        "amplitude_p95_30j_m",
+        "jours_transitoires_30j"
+      ],
+      "variables_categorielles": [
+        "type_actif",
+        "classe_materiau"
+      ],
+      "candidats": [
+        "age_seul",
+        "logistique_actifs"
+      ],
+      "regle_choix": "AP validation maximale ; age seul si egalite",
+      "regression": {
+        "C": 1.0,
+        "max_iter": 1000,
+        "solver": "lbfgs",
+        "class_weight": null
+      },
+      "validation_terrain": false,
+      "loi_incident": "artificielle, coefficients dans le code",
+      "cible": "nouvel incident dans ]t,t+30j], tous les actifs en service a t"
+    }
+  },
+  "sha256_gel": "9b7e83285d91e84408168f3c30ba5014050fa8122c7c3f1ae3ee05126564298c",
+  "sha256_modele": "987050f3d4b37f301479560ed07927466fb1f9d75468fc59613c82772c2d54c5"
+}

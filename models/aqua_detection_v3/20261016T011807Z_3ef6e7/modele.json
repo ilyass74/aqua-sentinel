@@ -1,0 +1,67 @@
+{
+  "version": 3,
+  "configuration": "Bilans_13",
+  "methode": "bilans physiques par paire, pas un modele ML",
+  "fenetre_bilans": 3,
+  "pas_s": 60,
+  "calibration": {
+    "P2": {
+      "centre_l_s": -0.0001949597464332749,
+      "dispersion_l_s": 0.041181664715475796,
+      "facteur": 4.0,
+      "seuil_l_s": 0.16472665886190319
+    },
+    "P3": {
+      "centre_l_s": -0.0005881615711000321,
+      "dispersion_l_s": 0.04068790894399067,
+      "facteur": 4.0,
+      "seuil_l_s": 0.1627516357759627
+    },
+    "P4": {
+      "centre_l_s": 0.00017539581423330527,
+      "dispersion_l_s": 0.041105213879242306,
+      "facteur": 4.0,
+      "seuil_l_s": 0.16442085551696922
+    },
+    "P5": {
+      "centre_l_s": -0.00032692311583329875,
+      "dispersion_l_s": 0.04085305843904902,
+      "facteur": 4.0,
+      "seuil_l_s": 0.16341223375619607
+    }
+  },
+  "capteurs_disponibles": [
+    "pression_A_m",
+    "pression_B_m",
+    "pression_C_m",
+    "pression_D_m",
+    "debit_P1_m3_s",
+    "debit_P2_m3_s",
+    "debit_P3_m3_s",
+    "debit_P4_m3_s",
+    "debit_P5_m3_s",
+    "debit_P2_aval_m3_s",
+    "debit_P3_aval_m3_s",
+    "debit_P4_aval_m3_s",
+    "debit_P5_aval_m3_s"
+  ],
+  "capteurs_installes": 13,
+  "capteurs_utilises": [
+    "debit_P2_m3_s",
+    "debit_P2_aval_m3_s",
+    "debit_P3_m3_s",
+    "debit_P3_aval_m3_s",
+    "debit_P4_m3_s",
+    "debit_P4_aval_m3_s",
+    "debit_P5_m3_s",
+    "debit_P5_aval_m3_s"
+  ],
+  "sens_references": {
+    "P2": "A vers B",
+    "P3": "A vers C",
+    "P4": "B vers D",
+    "P5": "C vers D"
+  },
+  "localisation": "argmax du niveau parmi les paires en alerte, au temps de decision",
+  "hypothese": "aucun soutirage legitime ni stockage entre les points de chaque paire"
+}

@@ -1,0 +1,41 @@
+{
+  "constante_train": {
+    "actifs": 2000,
+    "incidents_futurs": 262,
+    "actifs_proposes_inspection": 400,
+    "incidents_parmi_inspectes": 43,
+    "inspections_sans_incident_futur": 357,
+    "taux_incidents": 0.131,
+    "average_precision": 0.131,
+    "auc_roc": 0.5,
+    "precision_quota": 0.1075,
+    "rappel_quota": 0.16412213740458015,
+    "lift_quota": 0.8206106870229007
+  },
+  "age_seul": {
+    "actifs": 2000,
+    "incidents_futurs": 262,
+    "actifs_proposes_inspection": 400,
+    "incidents_parmi_inspectes": 114,
+    "inspections_sans_incident_futur": 286,
+    "taux_incidents": 0.131,
+    "average_precision": 0.25335318474614515,
+    "auc_roc": 0.7375635766301532,
+    "precision_quota": 0.285,
+    "rappel_quota": 0.4351145038167939,
+    "lift_quota": 2.175572519083969
+  },
+  "logistique_actifs": {
+    "actifs": 2000,
+    "incidents_futurs": 262,
+    "actifs_proposes_inspection": 400,
+    "incidents_parmi_inspectes": 155,
+    "inspections_sans_incident_futur": 245,
+    "taux_incidents": 0.131,
+    "average_precision": 0.3905411509085843,
+    "auc_roc": 0.8106843876000316,
+    "precision_quota": 0.3875,
+    "rappel_quota": 0.5916030534351145,
+    "lift_quota": 2.9580152671755724
+  }
+}

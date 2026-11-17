@@ -1,0 +1,82 @@
+{
+  "origine": "simulation_actifs",
+  "horizon_jours": 30,
+  "quota_inspection": 0.2,
+  "retenu_avant_test": "logistique_actifs",
+  "resultats": {
+    "constante_train": {
+      "actifs": 2000,
+      "incidents_futurs": 295,
+      "actifs_proposes_inspection": 400,
+      "incidents_parmi_inspectes": 59,
+      "inspections_sans_incident_futur": 341,
+      "taux_incidents": 0.1475,
+      "average_precision": 0.1475,
+      "auc_roc": 0.5,
+      "precision_quota": 0.1475,
+      "rappel_quota": 0.2,
+      "lift_quota": 1.0
+    },
+    "age_seul": {
+      "actifs": 2000,
+      "incidents_futurs": 295,
+      "actifs_proposes_inspection": 400,
+      "incidents_parmi_inspectes": 130,
+      "inspections_sans_incident_futur": 270,
+      "taux_incidents": 0.1475,
+      "average_precision": 0.3067194374754181,
+      "auc_roc": 0.7472339579501964,
+      "precision_quota": 0.325,
+      "rappel_quota": 0.4406779661016949,
+      "lift_quota": 2.203389830508475
+    },
+    "logistique_actifs": {
+      "actifs": 2000,
+      "incidents_futurs": 295,
+      "actifs_proposes_inspection": 400,
+      "incidents_parmi_inspectes": 157,
+      "inspections_sans_incident_futur": 243,
+      "taux_incidents": 0.1475,
+      "average_precision": 0.4303220226236809,
+      "auc_roc": 0.8037039614294945,
+      "precision_quota": 0.3925,
+      "rappel_quota": 0.5322033898305085,
+      "lift_quota": 2.661016949152543
+    }
+  },
+  "retenu_par_type": {
+    "conduite": {
+      "actifs": 1431,
+      "incidents_futurs": 208,
+      "actifs_proposes_inspection": 282,
+      "incidents_parmi_inspectes": 112,
+      "inspections_sans_incident_futur": 170,
+      "taux_incidents": 0.1453529000698812,
+      "average_precision": 0.4513874752427803,
+      "auc_roc": 0.814945122334738,
+      "precision_quota": 0.3971631205673759,
+      "rappel_quota": 0.5384615384615384,
+      "lift_quota": 2.73240589198036
+    },
+    "raccord": {
+      "actifs": 569,
+      "incidents_futurs": 87,
+      "actifs_proposes_inspection": 118,
+      "incidents_parmi_inspectes": 45,
+      "inspections_sans_incident_futur": 73,
+      "taux_incidents": 0.15289982425307558,
+      "average_precision": 0.38431276472512976,
+      "auc_roc": 0.7751943530309534,
+      "precision_quota": 0.3813559322033898,
+      "rappel_quota": 0.5172413793103449,
+      "lift_quota": 2.494155464640561
+    }
+  },
+  "quota_applique_au_lot_entier_pas_a_chaque_type": true,
+  "predictions_sauvees_avant_lecture_labels_evaluateur": true,
+  "actifs_communs_entre_jeux": 0,
+  "separation_chronologique": true,
+  "date_observation_test": "2025-10-01",
+  "validation_terrain": false,
+  "limite": "Loi et donnees artificielles. Pas de probabilite de casse reelle, ni de date de rupture predite."
+}

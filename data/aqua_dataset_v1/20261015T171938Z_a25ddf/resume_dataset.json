@@ -1,0 +1,37 @@
+{
+  "origine": "simulation",
+  "verifications": "PASS",
+  "scenarios_total": 80,
+  "lignes_total": 115200,
+  "lignes_par_scenario": 1440,
+  "jeux": {
+    "train": {
+      "scenarios": 48,
+      "scenarios_avec_fuite": 24,
+      "lignes": 69120,
+      "minutes_avec_fuite": 3195,
+      "sha256_capteurs": "ca7c6d12616fc442e215605548e3236dc1219764eea50fcd41c9df120e1fabc1",
+      "sha256_verite": "2ef12132469fa8fe053dc2dd5f9ed74e129438eb3a71bf91fc0adb0504ed1744"
+    },
+    "validation": {
+      "scenarios": 16,
+      "scenarios_avec_fuite": 8,
+      "lignes": 23040,
+      "minutes_avec_fuite": 912,
+      "sha256_capteurs": "6dbf7dd7f49d7ac04a450d4ac65a152a9bb69c0367090b7b55545b7a9779a798",
+      "sha256_verite": "82c200f57509478b282512a3d4be668143063c785c0bf4cd3deb4689c7f2a9b5"
+    },
+    "test": {
+      "scenarios": 16,
+      "scenarios_avec_fuite": 8,
+      "lignes": 23040,
+      "minutes_avec_fuite": 1063,
+      "sha256_capteurs": "0ed4fd39c1a537e39a7a4ae0fb4e1c8707e9ab9c9afb2b4c71925791433b5aa8",
+      "sha256_verite": "30f75672d9156c9ae2c6ed3d11edc3293abc28acde656c8ebe3d7bae1e1176a3"
+    }
+  },
+  "erreur_bilan_max_m3_s": 2.168404344971009e-18,
+  "scenarios_communs_entre_jeux": 0,
+  "labels_dans_fichiers_capteurs": false,
+  "limite": "Jeu synthetique exploratoire sur une seule maquette ; aucun modele entraine ici."
+}

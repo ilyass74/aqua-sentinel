@@ -1,0 +1,17 @@
+scenario_id,avec_fuite,episodes_alerte,fausses_alertes,minutes_alerte_hors_fuite
+S05cf799c133d,True,1,0,0
+S18eacdc3cac5,True,1,1,5
+S2c92cca4290b,False,0,0,0
+S30ba9fc43ae3,False,0,0,0
+S616b16e2b06d,True,0,0,0
+S74246a1e0e45,False,0,0,0
+S98c588fabeb3,False,0,0,0
+Sa3a55a771f06,True,1,0,10
+Saa84beacfab4,False,0,0,0
+Sb58c4f852b6a,True,1,0,17
+Sb61b90eb833c,True,0,0,0
+Sbf7430d3a4db,True,0,0,0
+Sc10e3e98a78b,True,1,0,0
+Se839eb84df76,False,0,0,0
+Sf973a4830eae,False,0,0,0
+Sfd4e953137ec,False,0,0,0

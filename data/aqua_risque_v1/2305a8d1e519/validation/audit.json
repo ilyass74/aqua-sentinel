@@ -1,0 +1,14 @@
+{
+  "origine": "simulation_actifs",
+  "partie": "validation",
+  "actifs": 2000,
+  "aucune_etiquette_dans_observations": true,
+  "historique_jours_par_actif": 30,
+  "suivi_complet_jours": 30,
+  "tous_actifs_en_service_a_t": true,
+  "fichiers_sha256": {
+    "observations.csv": "425daf9ae34a87403047f9dea7cf8b3e85d687eb8e5552082c0b1f2dfb2b1937",
+    "historique_30j.csv.gz": "dadbade37f2a4348594477b1f24568daa6cf2d7933b29f3bb241844170fb2078",
+    "verite.csv": "4c69c6033ef3065ba59070a514906a66f55e5023a53135429bc1988fc5c35798"
+  }
+}

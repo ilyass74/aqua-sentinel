@@ -1,0 +1,45 @@
+{
+  "version": "2.0",
+  "fichiers": {
+    "aqua_api_v2.py": {
+      "sha256": "72bc7dfc13396b815843d5482944cba11208107cf8544d5699a83897572a36d6",
+      "taille_octets": 15337
+    },
+    "aqua_v2_core.py": {
+      "sha256": "75cec478e2af9633cae942d924568541b21e57ef35c58d028be6ced47c285aea",
+      "taille_octets": 20419
+    },
+    "aqua_v2_hydraulique.py": {
+      "sha256": "a6ecfd97a8d760d5fba32b36f21bf6cf75d8a9b39632e9766768377852d931e5",
+      "taille_octets": 11929
+    },
+    "aqua_interface_v2.html": {
+      "sha256": "48887bd3afde1e9582a3a868c79920e6fce9982881f34f917b3def7b60125b24",
+      "taille_octets": 53962
+    },
+    "aqua_interface_v2.js": {
+      "sha256": "4e093461a29b47114a1b9cbb12545c384a04fa7c49a6ad58019774abadc3b3aa",
+      "taille_octets": 20700
+    },
+    "aqua_verifier_v2.py": {
+      "sha256": "f9bda59c7ab1e79961919d15c94b50adceb56f9fc86b7bac8aaebb6c02b5e6d2",
+      "taille_octets": 16225
+    },
+    "aqua_producteur_v2.py": {
+      "sha256": "606825ab1b4a43fc46a0dd145a989dc69840896bbdecf6b7da1e0157cf0ec902",
+      "taille_octets": 2771
+    },
+    "requirements_api_v2.txt": {
+      "sha256": "d874d16e238dbf79977c7be55d2a87b33923c9bcf6dbc980bbea420500f9769e",
+      "taille_octets": 195
+    },
+    "AQUA_V2_LIRE_AVANT.md": {
+      "sha256": "bfef69c5cfcfe664f8007b8642cb0ec3bb3bcdfc9baa3a6ef406ae975b568e71",
+      "taille_octets": 15098
+    },
+    "AQUA_V2_VERIFICATION.json": {
+      "sha256": "c5505e7ed868f67352b438eb94681f643eafa12b266dbdd0050e08794e10d11e",
+      "taille_octets": 7359
+    }
+  }
+}

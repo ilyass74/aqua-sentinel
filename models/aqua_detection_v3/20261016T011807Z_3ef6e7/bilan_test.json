@@ -1,0 +1,88 @@
+{
+  "origine": "simulation",
+  "configuration_principale": "Bilans_13",
+  "detection": {
+    "ML_9": {
+      "scenarios": 64,
+      "jours_simules": 64.0,
+      "fuites_total": 32,
+      "fuites_detectees": 30,
+      "rappel_evenements": 0.9375,
+      "fuites_detectees_en_5min": 16,
+      "rappel_evenements_en_5min": 0.5,
+      "fausses_alertes": 4,
+      "fausses_alertes_par_jour": 0.0625,
+      "cas_sains_avec_alerte": 2,
+      "minutes_alerte_hors_fuite": 287,
+      "precision_minutes": 0.9276166456494326,
+      "rappel_minutes": 0.8072870939420544,
+      "f1_minutes": 0.8632789578687947,
+      "vrais_positifs_minutes": 3678,
+      "faux_negatifs_minutes": 878,
+      "vrais_negatifs_minutes": 87317,
+      "delai_median_s": 300.0,
+      "delai_max_s": 9780,
+      "origine": "simulation",
+      "test_utilise_pour_reglage": false
+    },
+    "Bilans_13": {
+      "scenarios": 64,
+      "jours_simules": 64.0,
+      "fuites_total": 32,
+      "fuites_detectees": 32,
+      "rappel_evenements": 1.0,
+      "fuites_detectees_en_5min": 32,
+      "rappel_evenements_en_5min": 1.0,
+      "fausses_alertes": 0,
+      "fausses_alertes_par_jour": 0.0,
+      "cas_sains_avec_alerte": 0,
+      "minutes_alerte_hors_fuite": 163,
+      "precision_minutes": 0.9647033347769597,
+      "rappel_minutes": 0.9778314310798947,
+      "f1_minutes": 0.9712230215827338,
+      "vrais_positifs_minutes": 4455,
+      "faux_negatifs_minutes": 101,
+      "vrais_negatifs_minutes": 87441,
+      "delai_median_s": 180.0,
+      "delai_max_s": 300,
+      "origine": "simulation",
+      "test_utilise_pour_reglage": false
+    }
+  },
+  "localisation": {
+    "evenements": 32,
+    "correctement_localises": 32,
+    "localises_parmi_detectes": 1.0,
+    "localises_sur_toutes_fuites": 1.0,
+    "detectes_et_localises_en_5min": 32,
+    "methode": "bilan physique par paire au premier declenchement pendant la fuite ; pas une localisation ML"
+  },
+  "dataset_test": "C:\\Users\\HP\\Documents\\aqua-sentinel\\data\\aqua_test_detection_v3\\seed20261019_n64",
+  "audit_dataset": {
+    "sha256": {
+      "capteurs": "3bf87d34091df9acc899f0d8d7136389ae991776844175f1644acdc0d137913e",
+      "verite": "a8935de4836e129b3ffec19ff25029cb932c764f0ee23407550f65bea1107bed"
+    },
+    "scenarios": 64,
+    "scenarios_avec_fuite": 32,
+    "lignes": 92160,
+    "erreur_bilan_max_m3_s": 3.469446951953614e-18,
+    "labels_dans_capteurs": false,
+    "capteurs_installes": 13
+  },
+  "sources_sha256": {
+    "aqua_ml_v2.py": "68158bc6ab1054feaad64f8ba02e79ea190d401bd4b514fca78c2a880a9f068d",
+    "aqua_ml_v1.py": "b7e5ff58dc1cab1d8cdc77ddef224faa7fa33783dc4469253ad457b3909aa07e",
+    "aqua_dataset_v1.py": "49c1a5f26b90e5a6dc40579529b8edd0a95424a4ba9a0f18ba5d0f58eef7f0d0",
+    "aqua_sentinel_demo.py": "2d11d88bd838b9627410d84d85c688be8de9d0c46580c498857a043ff2f953fc",
+    "aqua_etude_capteurs_v1.py": "a2c65b023eb83214725c10380f5aab8cf5bc4f23f7ee9fe9077f3914bf65588d",
+    "aqua_detection_v3.py": "e34549a4a9046da15693caf03c5bbd3e3eced54a9335ea9d03ef60e8962a81fc"
+  },
+  "test_utilise_pour_reglage": false,
+  "predictions_ecrites_avant_lecture_etiquettes_par_evaluateur": true,
+  "sha256_predictions": {
+    "bilans13": "a0acf1a07e012c779562f3934e9c51055da75e05c98fd47c1477c22ceaecb094",
+    "ml9": "5e0eb6732642c25665797da7aea388823f6b7517ad7a1abcb8f12d8f5ec5ef84"
+  },
+  "limite": "Meme maquette et famille ; capteurs supplementaires sans biais/derive/panne/decalage ; aucun soutirage entre paires ; aucune validation terrain."
+}

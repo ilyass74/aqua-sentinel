@@ -1,0 +1,4 @@
+# Extensions V2 : aucune nouvelle dependance au-dela du socle deja utilise.
+# sqlite3 fait partie de Python. Conserver numpy/pandas/scikit-learn du projet.
+-r requirements_api_v1.txt
+wntr==1.5.0

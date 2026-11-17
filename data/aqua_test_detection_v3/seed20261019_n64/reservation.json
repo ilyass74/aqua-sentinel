@@ -1,0 +1,19 @@
+{
+  "modele_bilans_sha256": "e61eeffb632517d3a41ef8af07fb5c3dcfa9a4646d36480d6b8ccbdf48a2560a",
+  "identite": {
+    "sources_sha256": {
+      "aqua_ml_v2.py": "68158bc6ab1054feaad64f8ba02e79ea190d401bd4b514fca78c2a880a9f068d",
+      "aqua_ml_v1.py": "b7e5ff58dc1cab1d8cdc77ddef224faa7fa33783dc4469253ad457b3909aa07e",
+      "aqua_dataset_v1.py": "49c1a5f26b90e5a6dc40579529b8edd0a95424a4ba9a0f18ba5d0f58eef7f0d0",
+      "aqua_sentinel_demo.py": "2d11d88bd838b9627410d84d85c688be8de9d0c46580c498857a043ff2f953fc",
+      "aqua_etude_capteurs_v1.py": "a2c65b023eb83214725c10380f5aab8cf5bc4f23f7ee9fe9077f3914bf65588d",
+      "aqua_detection_v3.py": "e34549a4a9046da15693caf03c5bbd3e3eced54a9335ea9d03ef60e8962a81fc"
+    },
+    "sha256_resume_etude": "ee91b1239a87889559fe3f08f1e4c67b417b1b7f0d2d22d87daee6c825c43679",
+    "sha256_ml_v2": "c122d561dba82304dbb33dc3eeca51227c7635126f53e9456bb612376b5bad56",
+    "nouveau_test": {
+      "seed": 20261019,
+      "scenarios": 64
+    }
+  }
+}

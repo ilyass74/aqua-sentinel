@@ -1,0 +1,29 @@
+{
+  "signature": {
+    "sources_sha256": {
+      "aqua_ml_v2.py": "68158bc6ab1054feaad64f8ba02e79ea190d401bd4b514fca78c2a880a9f068d",
+      "aqua_ml_v1.py": "b7e5ff58dc1cab1d8cdc77ddef224faa7fa33783dc4469253ad457b3909aa07e",
+      "aqua_dataset_v1.py": "49c1a5f26b90e5a6dc40579529b8edd0a95424a4ba9a0f18ba5d0f58eef7f0d0",
+      "aqua_sentinel_demo.py": "2d11d88bd838b9627410d84d85c688be8de9d0c46580c498857a043ff2f953fc",
+      "aqua_etude_capteurs_v1.py": "a2c65b023eb83214725c10380f5aab8cf5bc4f23f7ee9fe9077f3914bf65588d"
+    },
+    "wntr": "1.5.0",
+    "capteurs_originaux": {
+      "train": "ca7c6d12616fc442e215605548e3236dc1219764eea50fcd41c9df120e1fabc1",
+      "validation": "6dbf7dd7f49d7ac04a450d4ac65a152a9bb69c0367090b7b55545b7a9779a798"
+    },
+    "bruit_aval_l_s": 0.05,
+    "graine_aval": "[seed_scenario, 3]"
+  },
+  "empreintes": {
+    "train": "a29ae6b00ce69ee86f166d9d08e79216ef22536c45db0bd0e07783a3e5d36933",
+    "validation": "5dff5e503e9445da431c58c62968c994204985e8f900efe05b2feaaa1beec8ff"
+  },
+  "ecart_reproduction_max_unites_natives": 1.1525003174028825e-11,
+  "erreur_bilan_paires_max_m3_s": 8.673617379884035e-19,
+  "jeux": [
+    "train",
+    "validation"
+  ],
+  "verite_utilisee_pour_construire_debits_aval": false
+}

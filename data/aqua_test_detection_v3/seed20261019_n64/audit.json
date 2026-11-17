@@ -1,0 +1,12 @@
+{
+  "sha256": {
+    "capteurs": "3bf87d34091df9acc899f0d8d7136389ae991776844175f1644acdc0d137913e",
+    "verite": "a8935de4836e129b3ffec19ff25029cb932c764f0ee23407550f65bea1107bed"
+  },
+  "scenarios": 64,
+  "scenarios_avec_fuite": 32,
+  "lignes": 92160,
+  "erreur_bilan_max_m3_s": 3.469446951953614e-18,
+  "labels_dans_capteurs": false,
+  "capteurs_installes": 13
+}

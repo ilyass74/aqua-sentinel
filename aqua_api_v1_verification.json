@@ -1,0 +1,151 @@
+{
+  "livraison": "AQUA Sentinel API/interface V1",
+  "statut": "PASS HTTP, integration et logique JavaScript ; rendu visuel Windows a confirmer",
+  "execution_locale": {
+    "systeme": "Linux",
+    "python": "3.12.14",
+    "dependances": {
+      "fastapi": "0.143.2",
+      "uvicorn": "0.54.0",
+      "httpx": "0.28.1",
+      "starlette": "1.8.0",
+      "pydantic": "2.14.1",
+      "pydantic-core": "2.50.1",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.9.1",
+      "wntr": "1.5.0"
+    }
+  },
+  "controles_http_integration": {
+    "statut": "PASS controles HTTP et integration",
+    "http": {
+      "verification": "PASS technique API locale",
+      "controles": {
+        "routes_et_page_html": true,
+        "rejeu_parite_tous_scenarios": 64,
+        "inference_detection_parite_2_journees": true,
+        "inference_risque_parite": true,
+        "entrees_invalides_et_verite_future_refusees": true,
+        "modeles_et_resultats_non_modifies": true
+      },
+      "origine": "simulation",
+      "validation_terrain": false,
+      "modele_detection": "/workspace/scratch/6223ef40e933/aqua_validation/models/aqua_detection_v3/20261016T011114Z_f53746",
+      "modele_risque": "/workspace/scratch/6223ef40e933/aqua_validation/models/aqua_risque_v1/20261016T014121Z_d0e383",
+      "sha256_api": "becd17e8685139395c48b21c63a32514e5546d6c607adee7f231f52ad490bb6c",
+      "sha256_interface": "a929ae2da5ff8bd045e56adf0233374579ddbb9c7b1a672b2c4562d3c8efab22",
+      "empreintes_modeles_resultats": {
+        "/workspace/scratch/6223ef40e933/aqua_validation/models/aqua_detection_v3/20261016T011114Z_f53746/modele.json": "f7848b50cdcda10a9d9492fd6c3290fd842888530b637f19b48b7e9b90f4bc0a",
+        "/workspace/scratch/6223ef40e933/aqua_validation/models/aqua_detection_v3/20261016T011114Z_f53746/gel.json": "18fa576587bc3c2574dd03d1ce2131240d3b8ae7ad1ad22ba20fe1241536b231",
+        "/workspace/scratch/6223ef40e933/aqua_validation/models/aqua_detection_v3/20261016T011114Z_f53746/bilan_test.json": "bdd2c8c7b673806aa08ad7b248223f2999637954ac8c4a882507933c28493fc8",
+        "/workspace/scratch/6223ef40e933/aqua_validation/models/aqua_detection_v3/20261016T011114Z_f53746/predictions_bilans13_test.csv": "d3963cfbfaef40a913730849f4fe880cc1480cf14f5b0b9fad865c77803d6c24",
+        "/workspace/scratch/6223ef40e933/aqua_validation/models/aqua_risque_v1/20261016T014121Z_d0e383/modele.joblib": "3c459e9eb268cb21dc19edc0be8e6b34284c6cbcd74b3066550d4c16b976da13",
+        "/workspace/scratch/6223ef40e933/aqua_validation/models/aqua_risque_v1/20261016T014121Z_d0e383/gel.json": "9cb10b922c80427e0b319e2568562e687064716266806f50fed5f5502a35837c",
+        "/workspace/scratch/6223ef40e933/aqua_validation/models/aqua_risque_v1/20261016T014121Z_d0e383/bilan_test.json": "2bebc8545a8c5118f880d156c6e0122e986bb043cf25e5bc07461b05a563818a",
+        "/workspace/scratch/6223ef40e933/aqua_validation/models/aqua_risque_v1/20261016T014121Z_d0e383/illustration_maquette/observations_fictives.csv": "eafa99f39ae3738d5eddce3283f5353bf266f6a08acd1e23703fc6c70ac399b8"
+      }
+    },
+    "controles_supplementaires": {
+      "ni_verite_ni_apprentissage_ni_generation_pendant_service": true,
+      "inference_sans_etat_persistant_requetes_independantes": true,
+      "detection_labels_doublons_trous_et_mesures_invalides_refuses": true,
+      "huit_debits_necessaires_suffisent_a_l_inference": true,
+      "risque_inspection_future_categorie_inconnue_et_date_panne_refusees": true,
+      "modele_detection_modifie_refuse_au_demarrage": true,
+      "tous_anciens_scripts_modeles_et_bilans_inchanges": true
+    },
+    "lectures_verite_tentees": []
+  },
+  "controles_logique_interface": {
+    "statut": "PASS logique DOM simule",
+    "controles": {
+      "demarrage_et_reseau_sur_donnees_api": true,
+      "curseur_premiere_alerte_selection_et_calcul_courbe": true,
+      "scenario_sans_alerte_et_changement_de_scenario": true,
+      "lecture_acceleree_et_pause": true,
+      "classement_neuf_actifs_quota_et_mentions_fictives": true,
+      "vue_resultats_et_declenchement_export": true,
+      "erreur_visible_et_reessai_sans_doublons": true,
+      "aucune_erreur_javascript_dans_les_parcours_testes": true
+    },
+    "methode": "HTML/JavaScript exacts, reponses API capturees, DOM jsdom. Canvas remplace par un contexte de controle des calculs finis.",
+    "limite": "Aucun rendu visuel navigateur ni verification visuelle mobile. Ces points restent a confirmer sur Windows.",
+    "scenarios": [
+      "S0c5741e077c9",
+      "S08983131b7e0"
+    ]
+  },
+  "rendu_visuel_navigateur_verifie": false,
+  "limite_verification_visuelle": "Le navigateur distant ne permet pas d ouvrir l apercu local. Aucun rendu visuel desktop/mobile n est declare valide. Verification a effectuer dans le navigateur Windows de l utilisateur.",
+  "compatibilite_windows": {
+    "python_cible": "3.13, 64 bits",
+    "dependance_binaire_verifiee_sur_index_pip": "pydantic_core-2.50.1-cp313-cp313-win_amd64.whl",
+    "sha256_roue_telechargee": "7816e98acc08119dc0f340ab167048ecc54126316330c1f0caf7c6756c88e28f",
+    "execution_windows_de_cette_API_confirmee": false
+  },
+  "interface": {
+    "vues": [
+      "reseau et rejeu",
+      "priorites d inspection fictives",
+      "resultats des deux tests distincts"
+    ],
+    "architecture": "HTML/CSS/JavaScript/SVG servis par FastAPI local ; aucun build Node necessaire pour l utilisateur",
+    "host": "127.0.0.1",
+    "port": 8012,
+    "lectures": "capteurs V3, predictions deja sauvegardees, rapports et observations de risque fictives",
+    "inference_detection": "sans etat persistant ; historique continu fourni a chaque appel",
+    "inference_risque": "origine simulation_actifs exclusivement, indice relatif, quota 20 %"
+  },
+  "anciens_fichiers_sha256_non_modifies": {
+    "aqua_dataset_v1.py": "49c1a5f26b90e5a6dc40579529b8edd0a95424a4ba9a0f18ba5d0f58eef7f0d0",
+    "aqua_robustesse_v1.py": "241bc4ce2f2c5dbfac53138abbdf22d675d3a3bde774556931fa2c3a0ef2194a",
+    "aqua_detecteur_v1.py": "d2046b29e40936f668aa79d916a5612402665ae8d49e09ecf6815ad0c1d7a1df",
+    "aqua_detection_v3.py": "e34549a4a9046da15693caf03c5bbd3e3eced54a9335ea9d03ef60e8962a81fc",
+    "aqua_ml_v1.py": "b7e5ff58dc1cab1d8cdc77ddef224faa7fa33783dc4469253ad457b3909aa07e",
+    "aqua_risque_v1.py": "5e43f7aa46f18835be1e8be80e0b071b0b5479edf348647096c660a429a5eb20",
+    "aqua_etude_capteurs_v1.py": "a2c65b023eb83214725c10380f5aab8cf5bc4f23f7ee9fe9077f3914bf65588d",
+    "aqua_detecteur_v2.py": "1c7252eedafa73f6c2727331bb8e2565b239f700d03a34194f0216311311fba9",
+    "aqua_diagnostic_petites_fuites.py": "6a494ee4192e3da86342d5d6cbb822f91c5a30971cd7097b780dcad5197ccde7",
+    "aqua_sentinel_demo.py": "2d11d88bd838b9627410d84d85c688be8de9d0c46580c498857a043ff2f953fc",
+    "aqua_ml_v2.py": "68158bc6ab1054feaad64f8ba02e79ea190d401bd4b514fca78c2a880a9f068d",
+    "models/aqua_detection_v3/20261016T010944Z_cfe1e7/gel.json": "455744d2551809f1e3c12247d23602d417cb6580fb5f3c947634622b8f2fa8c2",
+    "models/aqua_detection_v3/20261016T010944Z_cfe1e7/modele.json": "f7848b50cdcda10a9d9492fd6c3290fd842888530b637f19b48b7e9b90f4bc0a",
+    "models/aqua_detection_v3/20261016T011114Z_f53746/bilan_test.json": "bdd2c8c7b673806aa08ad7b248223f2999637954ac8c4a882507933c28493fc8",
+    "models/aqua_detection_v3/20261016T011114Z_f53746/gel.json": "18fa576587bc3c2574dd03d1ce2131240d3b8ae7ad1ad22ba20fe1241536b231",
+    "models/aqua_detection_v3/20261016T011114Z_f53746/modele.json": "f7848b50cdcda10a9d9492fd6c3290fd842888530b637f19b48b7e9b90f4bc0a",
+    "models/aqua_detection_v3/20261016T011114Z_f53746/_TEST_EVALUE": "dddb47c4ee2255a40217640edb25359e7a3133a4ce692211aa6ceccbfc9f7801",
+    "models/aqua_risque_v1/20261016T014121Z_d0e383/bilan_test.json": "2bebc8545a8c5118f880d156c6e0122e986bb043cf25e5bc07461b05a563818a",
+    "models/aqua_risque_v1/20261016T014121Z_d0e383/modele.joblib": "3c459e9eb268cb21dc19edc0be8e6b34284c6cbcd74b3066550d4c16b976da13",
+    "models/aqua_risque_v1/20261016T014121Z_d0e383/gel.json": "9cb10b922c80427e0b319e2568562e687064716266806f50fed5f5502a35837c",
+    "models/aqua_risque_v1/20261016T014121Z_d0e383/_TEST_EVALUE": "fbaeeefa38b5c43514d8b3f8d44677563fa1a8f6e6b36120e8dc541298af1431",
+    "models/aqua_risque_v1/20261016T013622Z_28fa65/bilan_test.json": "58b7ce8b4415fb860a337049f64488703bd78704512a8a928f84a2803a8ee8ac",
+    "models/aqua_risque_v1/20261016T013622Z_28fa65/modele.joblib": "3c459e9eb268cb21dc19edc0be8e6b34284c6cbcd74b3066550d4c16b976da13",
+    "models/aqua_risque_v1/20261016T013622Z_28fa65/gel.json": "d5f015807fb49b2d9f2512b056430bf16bbdef3eae36fe907dd67d78f90619d6",
+    "models/aqua_risque_v1/20261016T013622Z_28fa65/_TEST_EVALUE": "01929349c6ca156e0bbe6225f992fc598be657ef8b3649e3503e51d21d86060a"
+  },
+  "nouveaux_fichiers_sha256": {
+    "aqua_api_v1.py": "becd17e8685139395c48b21c63a32514e5546d6c607adee7f231f52ad490bb6c",
+    "aqua_interface_v1.html": "a929ae2da5ff8bd045e56adf0233374579ddbb9c7b1a672b2c4562d3c8efab22",
+    "requirements_api_v1.txt": "f7287af638a3de425b79a2e991f1db093908230ed2bc2def9d0fcd2bef172c77",
+    "AQUA_API_V1_LIRE_AVANT.md": "e6667cb2772b80a1ddfb50ccd60bb2c728bc88078bd110c75aa5ef29388eb177"
+  },
+  "validation_terrain": false,
+  "hypotheses_et_limites": [
+    "Les alertes de la carte sont un rejeu de mesures hydrauliques simulees et pas des capteurs actuellement connectes.",
+    "La localisation porte sur une conduite candidate entre deux mesures ; aucune position precise du trou.",
+    "La regle physique suppose absence de soutirage et de stockage entre chaque paire ; defauts capteurs non valides.",
+    "Le risque est appris sur une loi artificielle ; ages, materiaux, inspections et historiques de la demonstration sont inventes.",
+    "Les 9 actifs illustres sont distincts des 2 000 actifs fictifs du test risque.",
+    "Aucune probabilite calibree de rupture reelle, commande d equipement, flux persistant, authentification ou publication publique dans cette version."
+  ],
+  "sources_methodologiques": [
+    "https://fastapi.tiangolo.com/advanced/events/",
+    "https://fastapi.tiangolo.com/tutorial/body/",
+    "https://fastapi.tiangolo.com/tutorial/testing/",
+    "https://fastapi.tiangolo.com/advanced/custom-response/",
+    "https://pypi.org/project/fastapi/0.143.2/",
+    "https://pypi.org/project/uvicorn/0.54.0/",
+    "https://pypi.org/project/httpx/0.28.1/"
+  ]
+}

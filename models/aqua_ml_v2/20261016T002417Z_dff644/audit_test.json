@@ -1,0 +1,29 @@
+{
+  "dataset_test": "C:\\Users\\HP\\Documents\\aqua-sentinel\\data\\aqua_test_ml_v2\\seed20261016_n64",
+  "audit_dataset": {
+    "origine": "simulation",
+    "verifications": "PASS",
+    "scenarios_total": 64,
+    "scenarios_communs_avec_ancien_dataset": 0,
+    "labels_dans_fichiers_capteurs": false,
+    "erreur_bilan_max_m3_s": 2.8189256484623115e-18,
+    "jeux": {
+      "test": {
+        "scenarios": 64,
+        "scenarios_avec_fuite": 32,
+        "lignes": 92160,
+        "sha256_capteurs": "7ce97f54d6ffba1d8b5d98a422c8dc8e0b41f5fd8a25c4cbf3c3a6f7d207a2ee",
+        "sha256_verite": "f26060ae97a1cc3c843df850b8462b920835a89680b962ec78aa2c72a3c0dc75"
+      }
+    }
+  },
+  "sha256_predictions_v1": "00acf4c1f09b01ed2ec462ccec62eddb60b443de89052496ad38a2e1411b7c12",
+  "sha256_predictions_v2": "947c214530b1d4fb892df0e963d845d2b3bcb53991c2dcc3ffcd3664171d603d",
+  "predictions_sauvegardees_avant_lecture_etiquettes_par_evaluateur": true,
+  "sources_sha256": {
+    "aqua_ml_v2.py": "68158bc6ab1054feaad64f8ba02e79ea190d401bd4b514fca78c2a880a9f068d",
+    "aqua_ml_v1.py": "b7e5ff58dc1cab1d8cdc77ddef224faa7fa33783dc4469253ad457b3909aa07e",
+    "aqua_dataset_v1.py": "49c1a5f26b90e5a6dc40579529b8edd0a95424a4ba9a0f18ba5d0f58eef7f0d0",
+    "aqua_sentinel_demo.py": "2d11d88bd838b9627410d84d85c688be8de9d0c46580c498857a043ff2f953fc"
+  }
+}

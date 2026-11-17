@@ -1,0 +1,850 @@
+{
+  "origine": "simulation",
+  "seed": 20261015,
+  "scenarios": [
+    {
+      "scenario_id": "S188ef6287376",
+      "partie": "train",
+      "seed": 2737323764293186931,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "Sabb63639c6e3",
+      "partie": "train",
+      "seed": 9453918970141725403,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "Sba1ec000973e",
+      "partie": "train",
+      "seed": 18377910608318404269,
+      "avec_fuite": true,
+      "tuyau_cible": "P4",
+      "diametre_fuite_mm": 6,
+      "debut_fuite_s": 58320,
+      "fin_fuite_s": 69060
+    },
+    {
+      "scenario_id": "S0600647c9e7e",
+      "partie": "train",
+      "seed": 11758705784649766386,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S1e01578dc2fc",
+      "partie": "train",
+      "seed": 13049325275947747083,
+      "avec_fuite": true,
+      "tuyau_cible": "P2",
+      "diametre_fuite_mm": 4,
+      "debut_fuite_s": 19740,
+      "fin_fuite_s": 31800
+    },
+    {
+      "scenario_id": "Sb42b217400a2",
+      "partie": "train",
+      "seed": 2188228947984699891,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "Se6ac6d19636e",
+      "partie": "train",
+      "seed": 16287781846692776087,
+      "avec_fuite": true,
+      "tuyau_cible": "P4",
+      "diametre_fuite_mm": 8,
+      "debut_fuite_s": 60720,
+      "fin_fuite_s": 73380
+    },
+    {
+      "scenario_id": "S7dca9e492fb4",
+      "partie": "train",
+      "seed": 4669631387300842795,
+      "avec_fuite": true,
+      "tuyau_cible": "P5",
+      "diametre_fuite_mm": 4,
+      "debut_fuite_s": 12900,
+      "fin_fuite_s": 22080
+    },
+    {
+      "scenario_id": "Sb5fceb6e183c",
+      "partie": "train",
+      "seed": 1305055012216060744,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S911cd43c5b20",
+      "partie": "train",
+      "seed": 8834502878819630405,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S864b7b21ed23",
+      "partie": "train",
+      "seed": 12709697630882919903,
+      "avec_fuite": true,
+      "tuyau_cible": "P5",
+      "diametre_fuite_mm": 4,
+      "debut_fuite_s": 42240,
+      "fin_fuite_s": 54360
+    },
+    {
+      "scenario_id": "S2da233be987d",
+      "partie": "train",
+      "seed": 18095857630809451631,
+      "avec_fuite": true,
+      "tuyau_cible": "P3",
+      "diametre_fuite_mm": 8,
+      "debut_fuite_s": 54180,
+      "fin_fuite_s": 65280
+    },
+    {
+      "scenario_id": "S42866dbf607d",
+      "partie": "train",
+      "seed": 14852851596896915133,
+      "avec_fuite": true,
+      "tuyau_cible": "P5",
+      "diametre_fuite_mm": 12,
+      "debut_fuite_s": 74880,
+      "fin_fuite_s": 80160
+    },
+    {
+      "scenario_id": "S111c9b88e97e",
+      "partie": "train",
+      "seed": 5922290348740289555,
+      "avec_fuite": true,
+      "tuyau_cible": "P3",
+      "diametre_fuite_mm": 6,
+      "debut_fuite_s": 15900,
+      "fin_fuite_s": 21060
+    },
+    {
+      "scenario_id": "Sa20605ee0835",
+      "partie": "train",
+      "seed": 9126030300946366255,
+      "avec_fuite": true,
+      "tuyau_cible": "P2",
+      "diametre_fuite_mm": 4,
+      "debut_fuite_s": 53340,
+      "fin_fuite_s": 61260
+    },
+    {
+      "scenario_id": "S8a6f84fd11b4",
+      "partie": "train",
+      "seed": 11970005289165326852,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S867d0ebdaf93",
+      "partie": "train",
+      "seed": 14524878962578703153,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S7da87d341025",
+      "partie": "train",
+      "seed": 4458168128341082915,
+      "avec_fuite": true,
+      "tuyau_cible": "P5",
+      "diametre_fuite_mm": 12,
+      "debut_fuite_s": 75960,
+      "fin_fuite_s": 85320
+    },
+    {
+      "scenario_id": "S0dcb5b920327",
+      "partie": "train",
+      "seed": 11740586989971021140,
+      "avec_fuite": true,
+      "tuyau_cible": "P3",
+      "diametre_fuite_mm": 8,
+      "debut_fuite_s": 44760,
+      "fin_fuite_s": 49560
+    },
+    {
+      "scenario_id": "S242bbf6b6de3",
+      "partie": "train",
+      "seed": 11899823156856725163,
+      "avec_fuite": true,
+      "tuyau_cible": "P4",
+      "diametre_fuite_mm": 4,
+      "debut_fuite_s": 13320,
+      "fin_fuite_s": 18600
+    },
+    {
+      "scenario_id": "Sa8b78859a02a",
+      "partie": "train",
+      "seed": 18403320998745553996,
+      "avec_fuite": true,
+      "tuyau_cible": "P3",
+      "diametre_fuite_mm": 6,
+      "debut_fuite_s": 37740,
+      "fin_fuite_s": 42180
+    },
+    {
+      "scenario_id": "S6945dd056e4c",
+      "partie": "train",
+      "seed": 8059590727206286365,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "Sf82dd24accb7",
+      "partie": "train",
+      "seed": 16949944832458364795,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S96749649a094",
+      "partie": "train",
+      "seed": 6751779882816398248,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "Se4bf19e2745b",
+      "partie": "train",
+      "seed": 7980896131394604713,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S36b917ec5cc9",
+      "partie": "train",
+      "seed": 7164575951483766650,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S224b1ca9c92a",
+      "partie": "train",
+      "seed": 16439868980908857359,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "Sc2753194799d",
+      "partie": "train",
+      "seed": 6991347818461968171,
+      "avec_fuite": true,
+      "tuyau_cible": "P4",
+      "diametre_fuite_mm": 12,
+      "debut_fuite_s": 34260,
+      "fin_fuite_s": 38820
+    },
+    {
+      "scenario_id": "S0e75e46b89c3",
+      "partie": "train",
+      "seed": 12181237022863726389,
+      "avec_fuite": true,
+      "tuyau_cible": "P5",
+      "diametre_fuite_mm": 6,
+      "debut_fuite_s": 39780,
+      "fin_fuite_s": 43260
+    },
+    {
+      "scenario_id": "Sdf67a996c908",
+      "partie": "train",
+      "seed": 11901408480632396391,
+      "avec_fuite": true,
+      "tuyau_cible": "P4",
+      "diametre_fuite_mm": 8,
+      "debut_fuite_s": 26700,
+      "fin_fuite_s": 32640
+    },
+    {
+      "scenario_id": "Sba0361d79c87",
+      "partie": "train",
+      "seed": 16420163111402221560,
+      "avec_fuite": true,
+      "tuyau_cible": "P2",
+      "diametre_fuite_mm": 6,
+      "debut_fuite_s": 48720,
+      "fin_fuite_s": 55260
+    },
+    {
+      "scenario_id": "Sab8f0f6c449c",
+      "partie": "train",
+      "seed": 11699148595368894496,
+      "avec_fuite": true,
+      "tuyau_cible": "P3",
+      "diametre_fuite_mm": 12,
+      "debut_fuite_s": 69660,
+      "fin_fuite_s": 80400
+    },
+    {
+      "scenario_id": "Sc8910020d5c5",
+      "partie": "train",
+      "seed": 11236143021310796254,
+      "avec_fuite": true,
+      "tuyau_cible": "P3",
+      "diametre_fuite_mm": 4,
+      "debut_fuite_s": 54540,
+      "fin_fuite_s": 66780
+    },
+    {
+      "scenario_id": "S761d2de4473d",
+      "partie": "train",
+      "seed": 15276864974899761180,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S28fef1a1a145",
+      "partie": "train",
+      "seed": 7044549912883820119,
+      "avec_fuite": true,
+      "tuyau_cible": "P2",
+      "diametre_fuite_mm": 6,
+      "debut_fuite_s": 35520,
+      "fin_fuite_s": 41700
+    },
+    {
+      "scenario_id": "S0f246639d3a1",
+      "partie": "train",
+      "seed": 13017665009894489266,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "Sb7e009bba30e",
+      "partie": "train",
+      "seed": 292691041989072628,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S7c44e71d6130",
+      "partie": "train",
+      "seed": 15758653617053097000,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S2c30b3c57cd3",
+      "partie": "train",
+      "seed": 7118411498252303478,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S8c8ecbf5e45c",
+      "partie": "train",
+      "seed": 5879238837181003701,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S3a04aa527af5",
+      "partie": "train",
+      "seed": 13036737690663808295,
+      "avec_fuite": true,
+      "tuyau_cible": "P4",
+      "diametre_fuite_mm": 12,
+      "debut_fuite_s": 6780,
+      "fin_fuite_s": 19740
+    },
+    {
+      "scenario_id": "S45764fd095aa",
+      "partie": "train",
+      "seed": 5845262171871438220,
+      "avec_fuite": true,
+      "tuyau_cible": "P2",
+      "diametre_fuite_mm": 12,
+      "debut_fuite_s": 76080,
+      "fin_fuite_s": 86400
+    },
+    {
+      "scenario_id": "Sc75a85044b7b",
+      "partie": "train",
+      "seed": 1036488332372544906,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S10e8cc0b0a03",
+      "partie": "train",
+      "seed": 11172782492833121805,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S2971aca06fa9",
+      "partie": "train",
+      "seed": 7704379280846109233,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "Se56082dc05c9",
+      "partie": "train",
+      "seed": 15095312975301299499,
+      "avec_fuite": true,
+      "tuyau_cible": "P5",
+      "diametre_fuite_mm": 8,
+      "debut_fuite_s": 72660,
+      "fin_fuite_s": 77160
+    },
+    {
+      "scenario_id": "S7ed6296101c0",
+      "partie": "train",
+      "seed": 9472443777610814752,
+      "avec_fuite": true,
+      "tuyau_cible": "P2",
+      "diametre_fuite_mm": 8,
+      "debut_fuite_s": 30720,
+      "fin_fuite_s": 34860
+    },
+    {
+      "scenario_id": "S935e9fb74c77",
+      "partie": "train",
+      "seed": 5088553088367109889,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S7be6dc581e3a",
+      "partie": "validation",
+      "seed": 3021620271823554091,
+      "avec_fuite": true,
+      "tuyau_cible": "P3",
+      "diametre_fuite_mm": 6,
+      "debut_fuite_s": 67920,
+      "fin_fuite_s": 71280
+    },
+    {
+      "scenario_id": "S409590b869e2",
+      "partie": "validation",
+      "seed": 10417268001082778718,
+      "avec_fuite": true,
+      "tuyau_cible": "P4",
+      "diametre_fuite_mm": 12,
+      "debut_fuite_s": 69540,
+      "fin_fuite_s": 81540
+    },
+    {
+      "scenario_id": "S66bbbc4ecc9a",
+      "partie": "validation",
+      "seed": 16381711782062541104,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "Scf6075508923",
+      "partie": "validation",
+      "seed": 12673386440751647134,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S96dbbfe0bd06",
+      "partie": "validation",
+      "seed": 13125487569665099115,
+      "avec_fuite": true,
+      "tuyau_cible": "P2",
+      "diametre_fuite_mm": 6,
+      "debut_fuite_s": 77280,
+      "fin_fuite_s": 80100
+    },
+    {
+      "scenario_id": "S89ea64729687",
+      "partie": "validation",
+      "seed": 5504012251343572114,
+      "avec_fuite": true,
+      "tuyau_cible": "P5",
+      "diametre_fuite_mm": 12,
+      "debut_fuite_s": 28020,
+      "fin_fuite_s": 33900
+    },
+    {
+      "scenario_id": "Sfed78f3c0da4",
+      "partie": "validation",
+      "seed": 11208708269855178016,
+      "avec_fuite": true,
+      "tuyau_cible": "P2",
+      "diametre_fuite_mm": 4,
+      "debut_fuite_s": 31860,
+      "fin_fuite_s": 39540
+    },
+    {
+      "scenario_id": "S5fc6dc945ab0",
+      "partie": "validation",
+      "seed": 18357039926255328569,
+      "avec_fuite": true,
+      "tuyau_cible": "P4",
+      "diametre_fuite_mm": 8,
+      "debut_fuite_s": 58140,
+      "fin_fuite_s": 63720
+    },
+    {
+      "scenario_id": "S468b108fe037",
+      "partie": "validation",
+      "seed": 6928808817884999491,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "Sebf0852fac14",
+      "partie": "validation",
+      "seed": 18385604480626216769,
+      "avec_fuite": true,
+      "tuyau_cible": "P3",
+      "diametre_fuite_mm": 8,
+      "debut_fuite_s": 73800,
+      "fin_fuite_s": 77880
+    },
+    {
+      "scenario_id": "S6821ca339f31",
+      "partie": "validation",
+      "seed": 13517571953953182149,
+      "avec_fuite": true,
+      "tuyau_cible": "P5",
+      "diametre_fuite_mm": 4,
+      "debut_fuite_s": 53400,
+      "fin_fuite_s": 66720
+    },
+    {
+      "scenario_id": "S3c1ac6f015e2",
+      "partie": "validation",
+      "seed": 13000728507747415824,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S179eb99cbfc4",
+      "partie": "validation",
+      "seed": 4107556334429744321,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S8e72cf151245",
+      "partie": "validation",
+      "seed": 7561757919832619514,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S624cbc2a12fb",
+      "partie": "validation",
+      "seed": 10511968752529641863,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S1a493f2aab80",
+      "partie": "validation",
+      "seed": 1171265704744146977,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "Se839eb84df76",
+      "partie": "test",
+      "seed": 12451716345003464672,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S18eacdc3cac5",
+      "partie": "test",
+      "seed": 3960602154014704398,
+      "avec_fuite": true,
+      "tuyau_cible": "P5",
+      "diametre_fuite_mm": 4,
+      "debut_fuite_s": 43560,
+      "fin_fuite_s": 52620
+    },
+    {
+      "scenario_id": "S98c588fabeb3",
+      "partie": "test",
+      "seed": 12314624442543800302,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S2c92cca4290b",
+      "partie": "test",
+      "seed": 1478525776883637218,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "Sa3a55a771f06",
+      "partie": "test",
+      "seed": 11706743740981829384,
+      "avec_fuite": true,
+      "tuyau_cible": "P3",
+      "diametre_fuite_mm": 8,
+      "debut_fuite_s": 63720,
+      "fin_fuite_s": 69300
+    },
+    {
+      "scenario_id": "S74246a1e0e45",
+      "partie": "test",
+      "seed": 3887654766589941697,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "Sfd4e953137ec",
+      "partie": "test",
+      "seed": 1064573478720564686,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "Sbf7430d3a4db",
+      "partie": "test",
+      "seed": 13576391309174457249,
+      "avec_fuite": true,
+      "tuyau_cible": "P2",
+      "diametre_fuite_mm": 6,
+      "debut_fuite_s": 50400,
+      "fin_fuite_s": 59880
+    },
+    {
+      "scenario_id": "S616b16e2b06d",
+      "partie": "test",
+      "seed": 14286568425387202497,
+      "avec_fuite": true,
+      "tuyau_cible": "P2",
+      "diametre_fuite_mm": 4,
+      "debut_fuite_s": 37620,
+      "fin_fuite_s": 49800
+    },
+    {
+      "scenario_id": "Sf973a4830eae",
+      "partie": "test",
+      "seed": 6855887591033784179,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "Sc10e3e98a78b",
+      "partie": "test",
+      "seed": 9606582557615356958,
+      "avec_fuite": true,
+      "tuyau_cible": "P4",
+      "diametre_fuite_mm": 8,
+      "debut_fuite_s": 34800,
+      "fin_fuite_s": 39960
+    },
+    {
+      "scenario_id": "Saa84beacfab4",
+      "partie": "test",
+      "seed": 15019817991720621972,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "S30ba9fc43ae3",
+      "partie": "test",
+      "seed": 15841139838344214376,
+      "avec_fuite": false,
+      "tuyau_cible": null,
+      "diametre_fuite_mm": 0,
+      "debut_fuite_s": null,
+      "fin_fuite_s": null
+    },
+    {
+      "scenario_id": "Sb58c4f852b6a",
+      "partie": "test",
+      "seed": 5225440898042830536,
+      "avec_fuite": true,
+      "tuyau_cible": "P5",
+      "diametre_fuite_mm": 12,
+      "debut_fuite_s": 26640,
+      "fin_fuite_s": 32160
+    },
+    {
+      "scenario_id": "S05cf799c133d",
+      "partie": "test",
+      "seed": 392433091819632436,
+      "avec_fuite": true,
+      "tuyau_cible": "P4",
+      "diametre_fuite_mm": 12,
+      "debut_fuite_s": 52620,
+      "fin_fuite_s": 62760
+    },
+    {
+      "scenario_id": "Sb61b90eb833c",
+      "partie": "test",
+      "seed": 3343520932705918450,
+      "avec_fuite": true,
+      "tuyau_cible": "P3",
+      "diametre_fuite_mm": 6,
+      "debut_fuite_s": 47280,
+      "fin_fuite_s": 53940
+    }
+  ],
+  "python": "3.13.3",
+  "wntr": "1.5.0",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "sha256_generateur": "49c1a5f26b90e5a6dc40579529b8edd0a95424a4ba9a0f18ba5d0f58eef7f0d0",
+  "sha256_reseau_initial": "2d11d88bd838b9627410d84d85c688be8de9d0c46580c498857a043ff2f953fc",
+  "pas_s": 60,
+  "duree_s": 86400,
+  "intervalle": "[0,86400[",
+  "lignes_par_scenario": 1440,
+  "variables_capteurs": [
+    "pression_A_m",
+    "pression_B_m",
+    "pression_C_m",
+    "pression_D_m",
+    "debit_P1_m3_s",
+    "debit_P2_m3_s",
+    "debit_P3_m3_s",
+    "debit_P4_m3_s",
+    "debit_P5_m3_s"
+  ],
+  "jointure_uniquement": [
+    "scenario_id",
+    "temps_s"
+  ],
+  "unites": {
+    "pression": "m de colonne d'eau",
+    "debit": "m3/s",
+    "temps": "s"
+  },
+  "cibles_fuite": [
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+  ],
+  "position_fuite_relative": 0.5,
+  "debut_evenement_minute_min_max": [
+    30,
+    1410
+  ],
+  "bruit_ecart_type_pression_m": 0.03,
+  "bruit_ecart_type_debit_l_s": 0.05,
+  "limites": "Maquette unique, parametres pedagogiques, bruit suppose, aucune validation terrain."
+}

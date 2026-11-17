@@ -1,0 +1,9 @@
+scenario_id,debut_fuite_s,fin_fuite_s,detectee,delai_s,detectee_en_5min
+S409590b869e2,69540,81540,True,240,True
+S5fc6dc945ab0,58140,63720,True,720,False
+S6821ca339f31,53400,66720,True,1380,False
+S7be6dc581e3a,67920,71280,True,300,True
+S89ea64729687,28020,33900,True,300,True
+S96dbbfe0bd06,77280,80100,True,300,True
+Sebf0852fac14,73800,77880,True,300,True
+Sfed78f3c0da4,31860,39540,True,840,False

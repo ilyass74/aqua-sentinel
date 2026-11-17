@@ -1,0 +1,17 @@
+{
+  "origine": "simulation",
+  "verifications": "PASS",
+  "scenarios_total": 64,
+  "scenarios_communs_avec_ancien_dataset": 0,
+  "labels_dans_fichiers_capteurs": false,
+  "erreur_bilan_max_m3_s": 2.8189256484623115e-18,
+  "jeux": {
+    "test": {
+      "scenarios": 64,
+      "scenarios_avec_fuite": 32,
+      "lignes": 92160,
+      "sha256_capteurs": "7ce97f54d6ffba1d8b5d98a422c8dc8e0b41f5fd8a25c4cbf3c3a6f7d207a2ee",
+      "sha256_verite": "f26060ae97a1cc3c843df850b8462b920835a89680b962ec78aa2c72a3c0dc75"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "origine": "simulation",
+  "python": "3.12.14",
+  "wntr": "1.5.0",
+  "duree_s": 86400,
+  "pas_s": 60,
+  "lignes_par_scenario": 1441,
+  "debut_fuite_s": 43200,
+  "fin_fuite_s": 64800,
+  "diametre_fuite_m": 0.012,
+  "pression_D_normale_min_m": 39.48671721927196,
+  "baisse_pression_D_max_m": 0.450873090883924,
+  "debit_fuite_max_m3_s": 0.002341498123438662,
+  "verifications": "PASS",
+  "plateforme_test": "Linux 64 bits",
+  "script_sha256": "2d11d88bd838b9627410d84d85c688be8de9d0c46580c498857a043ff2f953fc"
+}

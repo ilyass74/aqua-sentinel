@@ -1,0 +1,22 @@
+{
+  "scenarios": 16,
+  "jours_simules": 16.0,
+  "fuites_total": 8,
+  "fuites_detectees": 8,
+  "rappel_evenements": 1.0,
+  "fuites_detectees_en_5min": 5,
+  "rappel_evenements_en_5min": 0.625,
+  "fausses_alertes": 2,
+  "fausses_alertes_par_jour": 0.125,
+  "cas_sains_avec_alerte": 2,
+  "minutes_alerte_hors_fuite": 119,
+  "precision_minutes": 0.8736730360934183,
+  "rappel_minutes": 0.9024122807017544,
+  "f1_minutes": 0.8878101402373247,
+  "vrais_positifs_minutes": 823,
+  "faux_negatifs_minutes": 89,
+  "vrais_negatifs_minutes": 22009,
+  "delai_median_s": 300.0,
+  "delai_max_s": 1380,
+  "seuil": 0.65
+}

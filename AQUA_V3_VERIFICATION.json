@@ -1,0 +1,82 @@
+{
+  "verification": "PASS",
+  "backend": {
+    "verification": "PASS",
+    "python": "3.12.14",
+    "systeme": "Linux",
+    "controles": {
+      "baselines_train_sain_pas_test_ni_calendrier_invente": {
+        "disponible": true,
+        "jeu": "train uniquement, scenarios sans fuite",
+        "scenarios": 24,
+        "classes_horaires": 96,
+        "hebdomadaire_disponible": false,
+        "sha256_capteurs": "ad7540c2ec5e307ee951c6b98e9ef5eac9d130a30712eb17b93b95517faf1e40",
+        "sha256_verite_train": "fbae23319f3281a6ce4a2e4dd05815360215552ae4948c81d3fac58888edb3ef",
+        "regle": "Mediane et MAD par quart d'heure ; seuils explicatifs a 3 dispersions, non valides sur terrain.",
+        "version": "979c3831b01c1a426eb8f10831d463299f51b3882cd8cf655345d29ed6b74672"
+      },
+      "preuves_couverture_absence_acoustique_pression_et_gravite_separees": true,
+      "minimum_nocturne_causal_persistance_et_consommation_sans_fuite": true,
+      "qualite_et_alerte_memoire_conservees": true,
+      "hebdomadaire_uniquement_references_datees_importees": true,
+      "acoustique_retard_signe_position_connue_rejet_signaux_insuffisants_ambigus": true,
+      "securite_qualite_communication_age_modes_pressions_vitesse_zone_critique": true,
+      "approbation_concurrence_idempotence_contexte_persistant_et_retours_defaillants": true,
+      "interventions_transitions_preuves_avant_apres_trois_mesures_nouvelles": true,
+      "assistant_source_local_noms_inconnus_llm_simule_avec_rejet_inventions": true,
+      "rapports_JSON_CSV_HTML_imprimable_et_echappement": true,
+      "API_regression_V1_V2_redemarrage_cycle_auto_audit": true,
+      "audit_chaines_alteration_detectee": true,
+      "fichiers_figes_inchanges": 19
+    },
+    "duree_s": 6.49,
+    "limite": "Tests techniques sur donnees et retours artificiels. Aucun nouveau score de generalisation, aucune surete industrielle ni validation terrain. LLM distant non appele ; contrat teste par doublure.",
+    "sources_sha256": {
+      "aqua_api_v3.py": "50fdd59ad7f054f8d53de480eb3b598bb92251e56bba5cb4497dfee104e75f3a",
+      "aqua_v3_monitor.py": "4ba21f4ce589514a8eae9b721c4464f64c6f0f38e0a9987d0e878fc04f52e872",
+      "aqua_v3_ops.py": "6038fa74c1ae64abac2d545aa308d1f4be9590e78be3554522249b5831fc8ddb",
+      "aqua_v3_agent.py": "dc584dc937e524bb9e63d5252ccac2e2d5f09171ac873a9096a9ef8a18e25f0b",
+      "aqua_v3_acoustique.py": "edf48faf4c488ee74dab52ca54fcb3bebbbf2060aea5d234056138f36c2d0ce9",
+      "aqua_interface_v3.html": "b42cc6fefecc5e0e290e74feea33736451fbbb0a2d225109a42cc19b86bb874f",
+      "aqua_interface_v3.js": "0e98e6d65388c2a170074479ebe39a412d6a211821be2d11fb2d278818020109",
+      "aqua_verifier_plateforme_v3.py": "4c8b7f8a5508479e0c6705f8961d4bb70640507744ed315c78bbdba94dc8a840"
+    }
+  },
+  "interface": {
+    "verification": "PASS",
+    "methode": "jsdom et API HTTP locale ; pas de verification visuelle dans un navigateur Windows",
+    "controles": {
+      "initial_empty_no_invented_data": true,
+      "map_keyboard_selection_filters_and_actual_data": true,
+      "server_source_play_pause": true,
+      "baselines_night_coverage_and_weekly_import": true,
+      "extra_sensors_level_and_acoustic_file": true,
+      "orders_create_transition_and_literal_render": true,
+      "control_approval_execution_verification_and_fault_freeze": true,
+      "communication_block_and_auto_lab_cycle": true,
+      "agent_sources_and_unknown_valve": true,
+      "reports_links_and_audit": true,
+      "error_and_retry": true,
+      "seven_views_finite_svg_no_dom_errors": true
+    },
+    "requetes": 70,
+    "erreurs": []
+  },
+  "historiques_inchanges": 226,
+  "perimetre": "Calculs et parcours de maquette ; pas de nouveau test de generalisation ni de validation terrain.",
+  "installation_Windows": "A rejouer sur le poste utilisateur. Le script PowerShell n'a pas ete execute sous Windows dans cet environnement.",
+  "LLM_distant": "Non appele ; contrat teste par reponses de transport controlees.",
+  "installation": {
+    "verification": "PASS",
+    "controles": [
+      "V1 seul sans V2",
+      "reinstallation idempotente",
+      "sauvegarde du V3 remplace",
+      "V2 modifie conserve et arret avant copies",
+      "retour arriere apres echec",
+      "paquet altere refuse"
+    ],
+    "methode": "Copies dans dossiers temporaires sous Linux, sans execution PowerShell."
+  }
+}

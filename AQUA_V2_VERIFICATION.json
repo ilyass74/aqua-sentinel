@@ -1,0 +1,171 @@
+{
+  "version": "2.0",
+  "date_utc": "2026-10-16T17:49:36.615501+00:00",
+  "python_http_hydraulique": {
+    "verification": "PASS technique",
+    "origine": "simulations_et_tests_fonctionnels",
+    "python": "3.12.14",
+    "plateforme": "Linux",
+    "wntr": "1.5.0",
+    "controles": {
+      "parite_V3_donnees_connues": {
+        "scenarios": 64,
+        "mesures": 92160
+      },
+      "volume_1L_s_1h_3_6m3": true,
+      "soutirage_legitime_corrige": true,
+      "qualite_absent_fige_desynchronise_trou_et_reprise": true,
+      "biais_fuite_non_distinguables_limite_conservee": true,
+      "sqlite_reprise_doublons_conflits_journal_concurrence": true,
+      "HTTP_source_serveur_continue_et_pause": true,
+      "HTTP_routes_entrees_invalides_origine_et_verite": true,
+      "HTTP_reprise_apres_redemarrage": true,
+      "placement_16_sous_ensembles_budget_et_priorites": true,
+      "hydraulique_5_cas_8_isolements_12_variantes_conservation_masse": true,
+      "HTTP_regulation_intervention_experiences_conservees": true,
+      "sources_modeles_et_rapports_figes_conserves": 15
+    },
+    "regulation": {
+      "deux_zones": {
+        "sans_regulation": {
+          "fraction_min_moyenne": 0.9139615598527561,
+          "fraction_min_pire": 0.913961559852756,
+          "volume_fourni_m3": 104.28313939498362,
+          "volume_fuite_simule_m3": 0.0,
+          "minutes_zone_sous_95pct": 180.0,
+          "pression_max_m": 39.42062308026261,
+          "pression_min_m": 21.706514657769404
+        },
+        "avec_regulation": {
+          "fraction_min_moyenne": 0.9268065775887313,
+          "fraction_min_pire": 0.9139615598531181,
+          "volume_fourni_m3": 102.32659555635007,
+          "volume_fuite_simule_m3": 0.0,
+          "minutes_zone_sous_95pct": 180.0,
+          "pression_max_m": 39.31294747760556,
+          "pression_min_m": 21.70651465778264
+        }
+      },
+      "pointe_B": {
+        "sans_regulation": {
+          "fraction_min_moyenne": 0.6382758824099659,
+          "fraction_min_pire": 0.5141355135088782,
+          "volume_fourni_m3": 97.77194101335007,
+          "volume_fuite_simule_m3": 0.0,
+          "minutes_zone_sous_95pct": 180.0,
+          "pression_max_m": 27.973044589123116,
+          "pression_min_m": 10.286706321185243
+        },
+        "avec_regulation": {
+          "fraction_min_moyenne": 0.6959779123014636,
+          "fraction_min_pire": 0.6007903832795731,
+          "volume_fourni_m3": 88.67617848384928,
+          "volume_fuite_simule_m3": 0.0,
+          "minutes_zone_sous_95pct": 325.0,
+          "pression_max_m": 27.865368986488306,
+          "pression_min_m": 12.218981692822144
+        }
+      },
+      "ressource_limitee": {
+        "sans_regulation": {
+          "fraction_min_moyenne": 0.35857527374489595,
+          "fraction_min_pire": 0.35857527374489595,
+          "volume_fourni_m3": 64.34668971399638,
+          "volume_fuite_simule_m3": 0.0,
+          "minutes_zone_sous_95pct": 360.0,
+          "pression_max_m": 16.36894137015367,
+          "pression_min_m": 7.571524319270502
+        },
+        "avec_regulation": {
+          "fraction_min_moyenne": 0.44107198722551993,
+          "fraction_min_pire": 0.3591294342590575,
+          "volume_fourni_m3": 54.829407268100205,
+          "volume_fuite_simule_m3": 0.0,
+          "minutes_zone_sous_95pct": 360.0,
+          "pression_max_m": 16.33352165585833,
+          "pression_min_m": 7.57947879671045
+        }
+      },
+      "capteur_absent": {
+        "sans_regulation": {
+          "fraction_min_moyenne": 0.7172742989833852,
+          "fraction_min_pire": 0.7172742989833852,
+          "volume_fourni_m3": 95.78624971800878,
+          "volume_fuite_simule_m3": 0.0,
+          "minutes_zone_sous_95pct": 180.0,
+          "pression_max_m": 27.973044589123116,
+          "pression_min_m": 15.289648399277826
+        },
+        "avec_regulation": {
+          "fraction_min_moyenne": 0.7641476898590103,
+          "fraction_min_pire": 0.7172742989837927,
+          "volume_fourni_m3": 89.32314178105247,
+          "volume_fuite_simule_m3": 0.0,
+          "minutes_zone_sous_95pct": 325.0,
+          "pression_max_m": 27.865368986488306,
+          "pression_min_m": 15.289648399289515
+        }
+      },
+      "fuite_A": {
+        "sans_regulation": {
+          "fraction_min_moyenne": 0.6889271768925723,
+          "fraction_min_pire": 0.644381699321295,
+          "volume_fourni_m3": 93.52628798580915,
+          "volume_fuite_simule_m3": 5.592090840456537,
+          "minutes_zone_sous_95pct": 180.0,
+          "pression_max_m": 27.973044589123116,
+          "pression_min_m": 13.304555488403984
+        },
+        "avec_regulation": {
+          "fraction_min_moyenne": 0.7436425995173406,
+          "fraction_min_pire": 0.7172742989837927,
+          "volume_fourni_m3": 86.10530115294853,
+          "volume_fuite_simule_m3": 4.5232325020638875,
+          "minutes_zone_sous_95pct": 325.0,
+          "pression_max_m": 27.865368986488306,
+          "pression_min_m": 15.289648399289515
+        }
+      }
+    },
+    "duree_verification_s": 31.33,
+    "sha256_sources_V2": {
+      "aqua_api_v2.py": "72bc7dfc13396b815843d5482944cba11208107cf8544d5699a83897572a36d6",
+      "aqua_v2_core.py": "75cec478e2af9633cae942d924568541b21e57ef35c58d028be6ced47c285aea",
+      "aqua_v2_hydraulique.py": "a6ecfd97a8d760d5fba32b36f21bf6cf75d8a9b39632e9766768377852d931e5",
+      "aqua_interface_v2.html": "48887bd3afde1e9582a3a868c79920e6fce9982881f34f917b3def7b60125b24",
+      "aqua_interface_v2.js": "4e093461a29b47114a1b9cbb12545c384a04fa7c49a6ad58019774abadc3b3aa",
+      "aqua_verifier_v2.py": "f9bda59c7ab1e79961919d15c94b50adceb56f9fc86b7bac8aaebb6c02b5e6d2",
+      "aqua_producteur_v2.py": "606825ab1b4a43fc46a0dd145a989dc69840896bbdecf6b7da1e0157cf0ec902",
+      "requirements_api_v2.txt": "d874d16e238dbf79977c7be55d2a87b33923c9bcf6dbc980bbea420500f9769e"
+    },
+    "affichage_navigateur_Windows": "a confirmer sur le poste utilisateur",
+    "limites": [
+      "Parite V3 sur un test deja connu, aucun nouveau score independant de detection.",
+      "Regulation et interventions sur une autre maquette, loi de vanne fictive, connaissance des demandes supposee.",
+      "Le controle qualite ne distingue pas un biais de capteur d'une fuite equivalente.",
+      "Volumes estimes sur intervalles valides ; aucun volume complet garanti en cas de panne.",
+      "Placement optimise pour couverture ponderee de quatre conduites, pas pour un reseau reel.",
+      "Aucune validation terrain, aucun pilotage de vanne physique."
+    ]
+  },
+  "interactions_interface": {
+    "verification": "PASS",
+    "methode": "jsdom et API HTTP locale, sans verification visuelle",
+    "checks": {
+      "legacy_network_priorities_results": true,
+      "flux_state_server_play_pause": true,
+      "quality_missing_visible": true,
+      "journal_append_and_literal_render": true,
+      "regulation_http_svg_cards_cursor": true,
+      "interventions_http_four_alternatives": true,
+      "placement_budget_priority_error_recovery": true,
+      "navigation_eight_views": true,
+      "canvas_finite_coordinates": 2400,
+      "producteur_HTTP_3_mesures": true
+    },
+    "requests": 57,
+    "errors": []
+  },
+  "fichiers_V1_et_modeles_inchanges": 101,
+  "confirmation_Windows": "Installation, verification CLI et controle visuel a executer sur le poste utilisateur."
+}

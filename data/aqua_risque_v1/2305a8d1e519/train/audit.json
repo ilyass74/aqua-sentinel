@@ -1,0 +1,14 @@
+{
+  "origine": "simulation_actifs",
+  "partie": "train",
+  "actifs": 6000,
+  "aucune_etiquette_dans_observations": true,
+  "historique_jours_par_actif": 30,
+  "suivi_complet_jours": 30,
+  "tous_actifs_en_service_a_t": true,
+  "fichiers_sha256": {
+    "observations.csv": "d359fd9f4ee924e51569c0250cc577ff63340b08d1b05657b7fe1877de038d5e",
+    "historique_30j.csv.gz": "feaf207ed348ae34230449e03d094de1d212098b340f122eafa278c132ed4944",
+    "verite.csv": "a2bcfd19624bb6303c4ac69f7eb24a863d8cdd90188dda510a0f7c2aa18d1e1a"
+  }
+}
